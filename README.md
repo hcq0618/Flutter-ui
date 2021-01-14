@@ -45,6 +45,14 @@ Widget _buildTreeView() {
 **FilterMenu**
 
 ``` dart
+Widget _buidListView(List<Widget> widgets) {
+    return ListView.builder(
+      shrinkWrap: true,
+      itemBuilder: (context, index) => widgets[index],
+      itemCount: widgets.length,
+    );
+  }
+
 Widget _buildFilterMenu() {
     final data = [
       ['All', 'text11', 'text12'],

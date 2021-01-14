@@ -58,7 +58,7 @@ class FilterMenu extends StatelessWidget {
     this.headerHighlightStyle =
         const TextStyle(color: Colors.green, fontSize: 15),
     this.headerHeight = 40,
-    this.menuMaskColor = const Color.fromRGBO(0, 0, 0, 0.5),
+    this.menuMaskColor = Colors.black54,
     this.onMenuItemSelected,
   })  : assert(initialHeader != null),
         assert(menuItemCountGetter != null),

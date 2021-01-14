@@ -83,6 +83,7 @@ Widget _buildFilterMenu() {
 
 - - -
 ![avatar](screenshots/Screenshot.jpg)
+![avatar](screenshots/Screenshot2.jpg)
 - - -
 
 MIT License

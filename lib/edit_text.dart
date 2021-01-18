@@ -15,7 +15,7 @@ class EditText extends StatefulWidget {
   final ValueChanged<String> onSubmitted;
   final ValueNotifier<String> textNotifier;
 
-  EditText({
+  const EditText({
     this.defaultText,
     this.outline = false,
     this.cleanButtonEnable = true,

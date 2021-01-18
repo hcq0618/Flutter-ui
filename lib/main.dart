@@ -74,7 +74,7 @@ class MyHomePage extends StatelessWidget {
       menuItemCountGetter: (menuIndex) => data[menuIndex].length,
       menuItemBuilder: (context, menuIndex, menuItemIndex, highlight) =>
           Container(
-        padding: EdgeInsets.all(8),
+        padding: const EdgeInsets.all(8),
         height: 35,
         child: Text(
           data[menuIndex][menuItemIndex],
@@ -91,12 +91,12 @@ class MyHomePage extends StatelessWidget {
   }
 
   Widget _buildTreeView() {
-    return TreeNode(
+    return const TreeNode(
       expand: true,
-      title: Text('parent'),
+      title: const Text('parent'),
       children: [
-        TreeNode(
-          title: Text('child'),
+        const TreeNode(
+          title: const Text('child'),
         ),
       ],
     );

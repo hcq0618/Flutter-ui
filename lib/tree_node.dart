@@ -9,7 +9,7 @@ class TreeNode extends StatefulWidget {
   final Widget title;
   final Widget leading;
 
-  TreeNode({
+  const TreeNode({
     this.expand = false,
     this.offsetLeft = 12,
     this.children = const [],

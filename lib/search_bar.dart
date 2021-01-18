@@ -28,8 +28,8 @@ class SearchBar extends StatelessWidget {
       height: height,
       decoration: BoxDecoration(
           color: backgroundColor,
-          border: Border(
-            bottom: BorderSide(color: Colors.grey, width: 0.5),
+          border: const Border(
+            bottom: const BorderSide(color: Colors.grey, width: 0.5),
           )),
       child: Row(
         children: [
@@ -59,11 +59,11 @@ class SearchBar extends StatelessWidget {
   }
 
   Widget _buildSearchButton() {
-    final iconSize = 25.0;
+    const iconSize = 25.0;
     final paddingVertical = (_searchButtonWidth - iconSize) / 2;
     return OutlineButton(
       highlightColor: highlightColor,
-      child: Icon(
+      child: const Icon(
         Icons.search,
         size: iconSize,
       ),

@@ -176,7 +176,7 @@ class _FilterDropdownMenu extends StatelessWidget {
         ]),
       ),
       separatorBuilder: (context, index) =>
-          Divider(height: 0.5, color: Colors.grey),
+          const Divider(height: 0.5, color: Colors.grey),
     );
   }
 
@@ -218,8 +218,8 @@ class _FilterMenuHeader extends StatelessWidget {
       height: _height,
       decoration: BoxDecoration(
         color: _backgroundColor,
-        border: Border(
-          bottom: BorderSide(color: Colors.grey, width: 0.5),
+        border: const Border(
+          bottom: const BorderSide(color: Colors.grey, width: 0.5),
         ),
       ),
       child: _buildHeader(context),

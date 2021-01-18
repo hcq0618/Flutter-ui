@@ -125,7 +125,7 @@ class _EditTextState extends State<EditText> {
             size: _getClearButtonIconSize(),
           ),
           padding: EdgeInsets.all(_cleanButtonPadding),
-          shape: CircleBorder(),
+          shape: const CircleBorder(),
           onPressed: () {
             _textEditingController.clear();
             _onTextChanged('');

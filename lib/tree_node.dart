@@ -91,7 +91,7 @@ class _TreeNodeState extends State<TreeNode>
   Widget _buildTitle() {
     return Expanded(
       child: Padding(
-        padding: EdgeInsets.only(left: 6, right: 6, top: 10, bottom: 10),
+        padding: const EdgeInsets.only(left: 6, right: 6, top: 10, bottom: 10),
         child: widget.title,
       ),
     );

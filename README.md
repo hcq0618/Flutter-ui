@@ -32,10 +32,10 @@ Widget _buildTreeView() {
     // there are many other params
     return const TreeNode(
       expand: true,
-      title: const Text('parent'),
+      title: Text('parent'),
       children: [
-        const TreeNode(
-          title: const Text('child'),
+         TreeNode(
+          title: Text('child'),
         ),
       ],
     );

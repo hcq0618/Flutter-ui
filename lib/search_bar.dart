@@ -29,7 +29,7 @@ class SearchBar extends StatelessWidget {
       decoration: BoxDecoration(
           color: backgroundColor,
           border: const Border(
-            bottom: const BorderSide(color: Colors.grey, width: 0.5),
+            bottom: BorderSide(color: Colors.grey, width: 0.5),
           )),
       child: Row(
         children: [

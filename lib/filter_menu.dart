@@ -219,7 +219,7 @@ class _FilterMenuHeader extends StatelessWidget {
       decoration: BoxDecoration(
         color: _backgroundColor,
         border: const Border(
-          bottom: const BorderSide(color: Colors.grey, width: 0.5),
+          bottom: BorderSide(color: Colors.grey, width: 0.5),
         ),
       ),
       child: _buildHeader(context),

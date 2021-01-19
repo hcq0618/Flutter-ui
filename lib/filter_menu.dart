@@ -231,7 +231,7 @@ class _FilterMenuHeader extends StatelessWidget {
     final itemWidth = MediaQuery.of(context).size.width / count;
     return GridView.builder(
       shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(),
+      physics: const NeverScrollableScrollPhysics(),
       itemCount: count,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: count,

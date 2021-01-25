@@ -89,7 +89,9 @@ class _EditTextState extends State<EditText> {
     return TextField(
       controller: _textEditingController,
       decoration: InputDecoration(
-        border: widget.outline ? OutlineInputBorder() : UnderlineInputBorder(),
+        border: widget.outline
+            ? const OutlineInputBorder()
+            : const UnderlineInputBorder(),
         focusedBorder: widget.outline
             ? OutlineInputBorder(borderSide: borderSide)
             : UnderlineInputBorder(borderSide: borderSide),
